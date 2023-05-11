@@ -817,3 +817,10 @@ p {
   text-transform: none;
   color: #434455;
 }
+
+/* Form */
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+}

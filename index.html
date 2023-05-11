@@ -593,6 +593,23 @@
                 </svg>
               </a>
             </li>
+            <form
+              name="subscribe-form"
+              autocomplete="on"
+              novalidate
+              method="post"
+            >
+              <label class="mail-form-field">
+                <span class="mail-form-tag">Subscribe</span>
+                <input
+                  class="mail-form-input"
+                  type="text"
+                  name="subscribe"
+                  placeholder="E-mail"
+                />
+              </label>
+              <button type="submit">Subscribe</button>
+            </form>
           </ul>
         </div>
       </div>
@@ -605,8 +622,49 @@
             <use href="./images/icons.svg#close-icon"></use>
           </svg>
         </button>
+        <p>Leave your contacts and we will call you back</p>
+        <form name="modal-form">
+          <label for="modal-name">Name</label>
+          <div>
+            <input type="text" name="modal-name" id="modal-name" />
+            <svg class="" width="20" height="20">
+              <use href=""></use>
+            </svg>
+          </div>
+          <label for="modal-phone">Name</label>
+          <div>
+            <input type="text" name="modal-phone" id="modal-phone" />
+            <svg class="" width="20" height="20">
+              <use href=""></use>
+            </svg>
+          </div>
+          <label for="modal-email">Name</label>
+          <div>
+            <input type="text" name="modal-email" id="modal-email" />
+            <svg class="" width="20" height="20">
+              <use href=""></use>
+            </svg>
+          </div>
+          <label for="modal-comment">Comment</label>
+          <textarea
+            name="modal-comment"
+            id="modal-comment"
+            rows="6"
+            placeholder="Text input"
+          >
+          </textarea>
+          <label>
+            <input type="checkbox" name="modal-agreement" />
+            <span
+              >I accept the terms and conditions of the
+              <a href="">Privacy Policy</a></span
+            >
+          </label>
+          <button class="button" type="submit">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/form.js"></script>
   </body>
 </html>
