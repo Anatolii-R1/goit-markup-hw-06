@@ -351,26 +351,35 @@
                 </svg>
               </a>
             </li>
-            <form
-              name="subscribe-form"
-              autocomplete="on"
-              novalidate
-              method="post"
-            >
-              <label class="email-form-field">
-                <span class="email-form-tag">Subscribe</span>
-                <input
-                  class="email-form-input"
-                  type="email"
-                  name="subscribe"
-                  placeholder="E-mail"
-                  required
-                />
-              </label>
-              <button class="button-subscribe" type="submit">Subscribe</button>
-            </form>
           </ul>
         </div>
+        <div class="email-container">
+          <form
+            class="email-form"
+            name="subscribe-form"
+            autocomplete="on"
+            novalidate
+            method="post"
+          >
+            <label class="email-form-field">
+              <span class="email-form-tag">Subscribe</span>
+              <input
+                class="email-form-input"
+                type="email"
+                name="subscribe"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button class="button-email" type="submit">
+              Subscribe
+              <svg class="send-icon" width="24" height="24">
+                <use href="./images/icons.svg#Letter"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
       </div>
     </footer>
   </body>
