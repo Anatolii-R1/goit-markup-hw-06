@@ -214,8 +214,9 @@ p {
 
   border-radius: 2px;
 }
+
 .header-nav-link.active::after {
-  color: var(--color-ocean);
+  background-color: var(--color-ocean);
 }
 
 .header-logo-studio {
