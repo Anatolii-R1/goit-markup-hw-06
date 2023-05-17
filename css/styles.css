@@ -617,11 +617,9 @@ p {
   margin-left: auto;
 }
 .email-form {
-  display: flex;
-  align-items: flex-end;
-  margin-left: 24px;
 }
 .email-form-field {
+  display: flex;
 }
 .email-form-tag {
   margin-bottom: 16px;
@@ -632,7 +630,6 @@ p {
   color: var(--color-white);
 }
 .email-form-input {
-  margin-top: 16px;
   font-size: 12px;
   font-family: 'Roboto';
   font-weight: 400;
@@ -646,6 +643,7 @@ p {
   display: block;
   align-items: center;
   justify-content: center;
+  padding-left: 16px;
 
   border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -731,8 +729,8 @@ p {
   transform: translate(-50%, -50%) scale(1);
 
   width: 408px;
-  min-height: 576px;
-  padding: 24px;
+  height: 584px;
+  padding: 72px 24px 24px;
 
   background-color: #fcfcfc;
   border-radius: 4px;
@@ -779,7 +777,6 @@ p {
 .modal-title {
   display: block;
   margin-bottom: 16px;
-  margin-top: 48px;
 
   font-size: 16px;
   text-align: center;
@@ -790,9 +787,10 @@ p {
 }
 .form-label {
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 
   font-size: 12px;
+  line-height: 14px;
   color: #8e8f99;
 }
 .form-wrapper {
@@ -851,7 +849,7 @@ p {
 .form-comment {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 112px;
   padding: 8px 16px;
   margin-bottom: 16px;
   resize: none;
